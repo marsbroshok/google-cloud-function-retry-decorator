@@ -4,7 +4,7 @@ with open('requirements.txt') as file_requirements:
     requirements = file_requirements.read().splitlines()
     
 setup(
-    name='Retry Decorator for Google Cloud Function',
+    name='retry-decorator-for-google-cloud-function',
     version='0.1',
     packages=['.',],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
